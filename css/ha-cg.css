@@ -48,7 +48,18 @@ body {
 }
 .to-top.show {right: 1rem;}
 /* ----------index.html Page---------- */
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
 .navbar .navbar-brand img {width: 10%;}
+.navbar .navbar-nav .nav-link {
+    font-size: var(--px-20-size);
+    font-family: "vip-rawy-bold";
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--main-color-cc202a);
+}
 .navbar .social a {color: var(--black-color);}
 .navbar .social .facebook {color: #1877f2;}
 .navbar .social .phone {color: #25d366;}
@@ -57,20 +68,16 @@ body {
 .navbar .social .location {color: #E74335;}
 .navbar .social .icon:hover {opacity: 0.7;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.landing {
-    height: 500px;
-    /* background-color: #E19413; */
+.slider .carousel .carousel-indicators button {
+    background-color: var(--main-color-cc202a);
+}
+.slider .carousel .carousel-item img {
+    height: 600px;
+    width: 100%;
+}
+.slider .carousel .carousel-item .carousel-caption {
+    color: var(--main-color-cc202a);
+}
+.slider .carousel .carousel-control-btn .icon {
+    background-color: #ccc;
 }
