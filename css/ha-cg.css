@@ -2,6 +2,8 @@
     --white-color: #ffffff;
     --black-color: #000000;
     --main-color-cc202a: #cc202a;
+    --sec-color-cc202a: #B93B42;
+    --section-bcolor-cc202a: #F2F2F2;
     --px-18-size: 1.125rem;
     --px-20-size: 1.25rem;
     --px-25-size: 1.5625rem;
@@ -22,6 +24,84 @@ body {
     font-size: 1rem;
     height: 2000px;
 }
+.sec-ttl h1 {
+    font-family: "vip-rawy-bold";
+    color: #555;
+}
+.sec-ttl h1::after {
+    content: "";
+    position: absolute;
+    bottom: -0.75rem;
+    left: 50%;
+    width: 10rem;
+    height: 3px;
+    background-color: var(--sec-color-cc202a);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.color-black {
+    color: var(--black-color);
+}
+.color-white {
+    color: var(--white-color);
+}
+.num {
+    font-family: 'Times New Roman', Times, serif;
+}
+.basic-icon .icon {
+    display: inline-block;
+    width: 2px;
+}
+.icon-solid {
+    background-color: #2B6046;
+}
+.icon-gray {
+    background-color: #ccc;
+}
+.icon-1 {height: 6px;}
+.icon-2 {height: 8px;}
+.icon-3 {height: 10px;}
+.icon-4 {height: 14px;}
+.icon-5 {height: 16px;}
+.modal-dialog-scrollable .modal-content {
+    width: 125%;
+}
+.popup-content .modal-content .modal-title {
+    font-family: "vip-rawy-bold";
+    color: var(--sec-color-cc202a);
+}
+.popup-content .modal-content .modal-body {
+    /* background-color: #ccc; */
+}
+.popup-content .modal-content .modal-body .det-txt {
+    color: var(--main-color-cc202a);
+}
+.popup-content .modal-content .modal-body .able-to {
+    color: #4aaa6d;
+}
+.popup-content .course-content .able-to-ul li::before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 1rem;
+    color: #25d366;
+    font-size: 1.5rem;
+}
+.popup-content .modal-content .modal-body .c-content {
+    color: #dd930a;
+}
+.popup-content .modal-content .modal-body .c-content-ul li::before {
+    content: "\f14a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 1rem;
+    color: #dd930a;
+    font-size: 1.5rem;
+}
+/* ------To Top Icon------- */
 .to-top {
     display: inline-block;
     width: 3rem;
@@ -66,7 +146,6 @@ body {
         width: 150px;
     }
 }
-
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
     color: var(--main-color-cc202a);
@@ -89,7 +168,27 @@ body {
 .slider .carousel .carousel-item .carousel-caption {
     color: var(--main-color-cc202a);
 }
-
 .slider .carousel .carousel-control-btn .icon {
     background-color: rgba(0, 0, 0, 0.7);
+}
+.department {
+    background-color: var(--section-bcolor-cc202a);
+}
+.department .box {
+    background-color: var(--white-color);
+    /* height: 13rem; */
+}
+.department .box .image {
+    background-color: var(--sec-color-cc202a);
+    width: 6rem;
+    height: 6rem;
+    top: -3rem;
+}
+.department .box h3 {
+    font-family: "vip-rawy-bold";
+    color: #565B78;
+}
+.department .box button a {
+    color: var(--white-color);
+    font-size: 1.25rem;
 }
