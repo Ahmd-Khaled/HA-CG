@@ -66,15 +66,10 @@ body {
 .icon-3 {height: 10px;}
 .icon-4 {height: 14px;}
 .icon-5 {height: 16px;}
-.modal-dialog-scrollable .modal-content {
-    width: 125%;
-}
+
 .popup-content .modal-content .modal-title {
     font-family: "vip-rawy-bold";
     color: var(--sec-color-cc202a);
-}
-.popup-content .modal-content .modal-body {
-    /* background-color: #ccc; */
 }
 .popup-content .modal-content .modal-body .det-txt {
     color: var(--main-color-cc202a);
