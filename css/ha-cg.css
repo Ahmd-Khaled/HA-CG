@@ -97,6 +97,13 @@ body {
     color: #dd930a;
     font-size: 1.5rem;
 }
+.social a {color: var(--black-color);}
+.social .facebook {color: #1877f2;}
+.social .phone {color: #25d366;}
+.social .email {color: #410093;}
+.social .fax {color: #EFA41C;}
+.social .location {color: #E74335;}
+.social .icon:hover {opacity: 0.7;}
 /* ------To Top Icon------- */
 .to-top {
     display: inline-block;
@@ -146,23 +153,15 @@ body {
 .navbar .navbar-nav .nav-link.active {
     color: var(--main-color-cc202a);
 }
-.navbar .social a {color: var(--black-color);}
-.navbar .social .facebook {color: #1877f2;}
-.navbar .social .phone {color: #25d366;}
-.navbar .social .email {color: #410093;}
-.navbar .social .fax {color: #EFA41C;}
-.navbar .social .location {color: #E74335;}
-.navbar .social .icon:hover {opacity: 0.7;}
-
 .slider .carousel .carousel-indicators button {
-    background-color: var(--main-color-cc202a);
+    background-color: var(--black-color);
 }
 .slider .carousel .carousel-item img {
     height: 600px;
     width: 100%;
 }
 .slider .carousel .carousel-item .carousel-caption {
-    color: var(--main-color-cc202a);
+    color: var(--black-color);
 }
 .slider .carousel .carousel-control-btn .icon {
     background-color: rgba(0, 0, 0, 0.7);
@@ -223,12 +222,57 @@ body {
 .certifications .cert-content .course-id {
     width: 50%;
 }
-.certifications .cert-content .info h4 {
-
-}
 .certifications .cert-content .info p {
     font-size: 1.25rem;
     color: #E65005;
+}
+.social-media .clients-carousel {
+    width: 60%;
+    /* height: 350px; */
+    margin: auto;
+}
+@media (max-width: 575.98px) {
+    .social-media .clients-carousel {
+        width: 100%;
+    }
+}
+@media (max-width: 767.98px) {
+    .social-media .clients-carousel {
+        width: 90%;
+    }
+}
+@media (max-width: 991.98px) {
+    .social-media .clients-carousel {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+.survey .content .envelope {
+    color: #264CA4;
+}
+.survey .content h4 {
+    font-size: 1.5rem;
+    font-family: "vip-rawy-bold";
+    color: #E65005;
+}
+.survey .content p {
+    font-size: 2rem;
+}
+.survey .send-msg .click-here {
+    font-size: 1.25rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.survey .send-msg .modal .modal-dialog .modal-body {
+    font-family: "vip-rawy-bold";
+    font-size: 1.25rem;
 }
 footer {
     background-color: #1F1F1F;
