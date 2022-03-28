@@ -230,3 +230,26 @@ body {
     font-size: 1.25rem;
     color: #E65005;
 }
+footer {
+    background-color: #1F1F1F;
+    color: var(--white-color);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .box .phone {
+    color: #25d366;
+}
+footer .box .email {
+    color: #410093;
+}
+footer .box .house {
+    color: #E74335;
+}
+.copy-rights {
+    background-color: #1F1F1F;
+    color: var(--white-color);
+}
+.copy-rights .createdby {
+    color: #E74335;
+    font-family: "vip-rawy-bold";
+    letter-spacing: 1px;
+}
