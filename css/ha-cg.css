@@ -212,3 +212,21 @@ body {
 .courses .popup-content .modal-content a.download-pdf:visited {
     color: var(--white-color);
 }
+.certifications .cert-content {
+    background-color: #E6E7E9;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.certifications .cert-content .course-id {
+    width: 50%;
+}
+.certifications .cert-content .info h4 {
+
+}
+.certifications .cert-content .info p {
+    font-size: 1.25rem;
+    color: #E65005;
+}
