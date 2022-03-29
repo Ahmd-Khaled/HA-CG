@@ -100,10 +100,18 @@ body {
 .social a {color: var(--black-color);}
 .social .facebook {color: #1877f2;}
 .social .phone {color: #25d366;}
-.social .email {color: #410093;}
+.social .email {color: #8C26B1;}
 .social .fax {color: #EFA41C;}
 .social .location {color: #E74335;}
 .social .icon:hover {opacity: 0.7;}
+.carousel .carousel-control-btn .icon {background-color: rgba(0, 0, 0, 0.7);}
+.trans-05 {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
 /* ------To Top Icon------- */
 .to-top {
     display: inline-block;
@@ -162,9 +170,6 @@ body {
 }
 .slider .carousel .carousel-item .carousel-caption {
     color: var(--black-color);
-}
-.slider .carousel .carousel-control-btn .icon {
-    background-color: rgba(0, 0, 0, 0.7);
 }
 .department {
     background-color: var(--section-bcolor-cc202a);
@@ -228,8 +233,12 @@ body {
 }
 .social-media .clients-carousel {
     width: 60%;
-    /* height: 350px; */
+    max-height: 350px;
     margin: auto;
+    /* overflow: hidden; */
+}
+.social-media .clients-carousel .carousel-item {
+    height: 350px;
 }
 @media (max-width: 575.98px) {
     .social-media .clients-carousel {
@@ -246,14 +255,8 @@ body {
         width: 80%;
     }
 }
-
-
-
-
-
-
-
-
+/* .social-media .clients-carousel .carousel-control-prev:hover {left: -0.5rem;}
+.social-media .clients-carousel .carousel-control-next:hover {right: -0.5rem;} */
 .survey .content .envelope {
     color: #264CA4;
 }
@@ -283,7 +286,7 @@ footer .box .phone {
     color: #25d366;
 }
 footer .box .email {
-    color: #410093;
+    color: #8C26B1;
 }
 footer .box .house {
     color: #E74335;
