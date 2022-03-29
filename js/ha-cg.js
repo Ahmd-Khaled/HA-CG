@@ -6,7 +6,6 @@ imgCont (17, labCarouselInner, "imgs/ha-labs/lab", "jpg");
 let SocialCarouselInner = document.querySelector(".social-media .clients-carousel .carousel-inner");
 imgCont (19, SocialCarouselInner, "imgs/ha-revs/img", "png");
 
-
 // Function to create Img container
 function imgCont (numberOfImgs, imgSecContainer, path, filetype) {
     for (i = 1; i < numberOfImgs; i++) {
@@ -25,7 +24,6 @@ let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
 })
-
 
 // Scroll to Top
 let toTopBtn = document.querySelector(".to-top");
