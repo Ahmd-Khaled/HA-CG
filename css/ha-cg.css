@@ -176,6 +176,7 @@ body {
 }
 .courses .card .card-body .clock {color: var(--yellow-color);}
 .courses .card .card-body .duration {color: var(--sec-color-cc202a);}
+.courses .popup-content .modal-content a.download-pdf,
 .courses .popup-content .modal-content a.download-pdf:visited {
     color: var(--white-color);
 }
